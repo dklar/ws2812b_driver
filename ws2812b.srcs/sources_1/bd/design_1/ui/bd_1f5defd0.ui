@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.6245",
+   "Default View_TopLeft":"-171,-246",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port WS2812B_out -pg 1 -lvl 4 -x 970 -y 10 -defaultsOSRD
+preplace port switch1 -pg 1 -lvl 0 -x -20 -y 70 -defaultsOSRD
+preplace port switch2 -pg 1 -lvl 0 -x -20 -y 90 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -20 -y -40 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 110 -y -40 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 750 -y -70 -defaultsOSRD
+preplace inst colorSelect_0 -pg 1 -lvl 1 -x 110 -y 80 -defaultsOSRD
+preplace inst ws2812b_driver_0 -pg 1 -lvl 2 -x 390 -y 10 -defaultsOSRD
+preplace netloc ws2812b_driver_0_data_rgb_out 1 2 2 540J 10 NJ
+preplace netloc colorSelect_0_color 1 1 2 230 -70 N
+preplace netloc red_0_1 1 0 1 N 70
+preplace netloc blue_0_1 1 0 1 N 90
+preplace netloc clk_wiz_clk_out1 1 1 2 220 -90 N
+preplace netloc sys_clock_1 1 0 1 N -40
+levelinfo -pg 1 -20 110 390 750 970
+pagesize -pg 1 -db -bbox -sgen -140 -390 1120 200
+"
+}
+{
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"1",
+   "da_ps7_cnt":"1"
+}
